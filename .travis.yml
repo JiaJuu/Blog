@@ -1,0 +1,31 @@
+language: node_js
+
+node_js: stable
+
+cache: 
+  directories: 
+    - node_modules
+
+install: 
+  - npm install
+
+script:
+  - hexo clean
+  - hexo g
+
+after_script: 
+  - cd ./public
+  - git init
+  - git config user.name "jiajuu"
+  - git config user.email "932636588@qq.com"
+  - git add .
+  - git commit -m "来自travis-ci自动部署的哈"
+  - git push --force --quiet "https://${key}@${GH_REF}"
+
+branches:
+  only: 
+    - master
+
+env: 
+  global:
+    - GH_REF: github.com/JiaJuu/jiajuu.github.io.git
