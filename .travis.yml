@@ -19,7 +19,7 @@ after_script:
   - git config user.name "jiajuu"
   - git config user.email "932636588@qq.com"
   - git add .
-  - git commit -m "来自travis-ci自动部署的哈"
+  - git commit -m "Update By Travis-CI"
   - git push --force --quiet "https://${key}@${GH_REF}" master
 
 branches:
