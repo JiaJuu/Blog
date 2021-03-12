@@ -3,7 +3,7 @@ title: C++知识点整理第二弹-进阶篇
 date: 2021-03-12 20:32:22
 tags: C++
 categories: C++
-cover: https://jiajuu.top/2021/03/12/cpp知识点整理第二弹-进阶篇/cpp知识点整理第二弹-进阶篇.jpg
+cover: https://jiajuu.top/2021/03/12/cpp知识点整理第二弹-进阶篇/cpp知识点整理第二弹-进阶篇.png
 ---
 
 
