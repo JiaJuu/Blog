@@ -2066,3 +2066,9 @@ int main() {
 - out_of_range
 
 用 vector 或 string的at 成员函数根据下标访问元素时，如果下标越界，则会拋出此异常
+
+
+
+# 感谢
+
+> 转载自https://github.com/forthespada/InterviewGuide，感激大佬的整理和分享！
