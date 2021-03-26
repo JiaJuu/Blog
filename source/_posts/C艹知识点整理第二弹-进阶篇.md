@@ -3,7 +3,7 @@ title: C++知识点整理第二弹-进阶篇
 date: 2021-03-12 20:32:22
 tags: C++
 categories: C++
-cover: https://jiajuu.top/2021/03/12/cpp知识点整理第二弹-进阶篇/cpp知识点整理第二弹-进阶篇.png
+cover: https://jiajuu.top/2021/03/12/C艹知识点整理第二弹-进阶篇/C艹知识点整理第二弹-进阶篇.png
 ---
 
 
@@ -1433,17 +1433,8 @@ int main()
 
   ```
   Student s;
-  ```
-
-  ```
   Student s1 = s;    // 调用拷贝构造函数
-  ```
-
-  ```
   Student s2;
-  ```
-
-  ```
   s2 = s;    // 赋值运算符操作
   ```
 
