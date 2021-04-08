@@ -34,7 +34,7 @@ public:
 int main(){
 	B b;
 	A* a1 = new B();
-	A* a2 = b;
+	A* a2 = &b;
 	a1->func();
 	a2->func();
 	return 0;
